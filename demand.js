@@ -7,8 +7,11 @@
  * ----------------------------------------------------------------------------
  */
 
+/*! ========= COPY FROM HERE ========= */
+
 /**
  * Demands one or more module.
+ *
  * Any module not available from the built in require method of node.js will be
  * promoted to the user which have the option to cancel, install. Install is
  * available as local or global where the global option will install the module
@@ -158,5 +161,9 @@ var demand = function(modules, callback) {
 
     // require first requested module
     tick();
-
 }
+
+/*! ============= TO HERE ============ */
+
+// append to exports
+exports.demand = demand;
