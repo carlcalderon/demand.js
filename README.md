@@ -10,10 +10,10 @@ If a module you require is missing, demand.js will automatically ask the user to
 
 Since demand.js is loading modules, it would be crazy having it self as a
 module. With this said, demand.js may be implemented in any way suitable for
-your needs. You may place the js file and require it or just **copy paste** either
+your needs. You may place the js file wherever you want and require it or just **copy paste** either
 the readable or minified version of it into your code.
 
-I suggest you copy paste the code. Don't worry about any license, just by me a beer.
+I suggest you copy paste the code. Don't worry about any license, just buy me a beer.
 
 **Syntax**
 
