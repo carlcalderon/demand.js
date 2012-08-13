@@ -34,6 +34,7 @@ demand("colors", function (data) {
 
 });
 
+// multiple
 demand(["underscore", "coffee-script"], function(data) {
 
 	var underscore = data[0],
