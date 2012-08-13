@@ -161,7 +161,7 @@ var demand = function(modules, callback) {
 
     // require first requested module
     tick();
-}
+};
 
 /*! ============= TO HERE ============ */
 
